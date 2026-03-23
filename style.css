@@ -1,0 +1,99 @@
+.super-navbar__cta {
+    transition: all 0.2s ease-in-out!important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+    background: #0F161F!important;
+    color: #fff!important;
+    padding: 12px 14px !important;
+}
+
+.super-search-input {
+    border-radius: 12px!important;
+    padding: 10px 12px!important;
+    border-color: #CDD5DC!important;
+}
+
+.super-navigation-menu__item, .super-navigation-menu__list-header{
+  border-radius: 10px !important;
+  padding: 8px 16px !important;
+  color: #26323D!important;
+  letter-spacing: -0.3px !important;
+}
+
+.super-navigation-menu__item.active {
+  font-weight: 400!important;
+  color: #0F161F !important;
+}
+
+.super-navigation-menu__item svg:first-child:not(.super-navigation-menu__list .super-navigation-menu__item > svg:first-child), 
+.super-navigation-menu__list-header svg:first-child {
+    stroke: #82919E!important; 
+    
+}
+
+.super-navigation-menu__item.active svg:first-child:not(.super-navigation-menu__list .super-navigation-menu__item > svg:first-child), 
+.super-navigation-menu__list-header svg:first-child {
+    stroke: #0F161F !important; 
+    
+}
+
+.notion-callout{
+  border-radius: 12px!important;
+  padding: 8px 16px 16px 8px!important;
+  background-color: #fff;
+}
+
+.notion-callout:hover{
+  border: 1px solid!important;
+  border-color: #0F161F;
+}
+
+.notion-callout .notion-image.page-width {
+    width: fill!important;
+    border-radius: 8px!important;
+    overflow: hidden!important;
+}
+
+.notion-callout h3.notion-heading {
+    font-size: 18px;
+    text-transform: none !important;
+    letter-spacing: -0.4px !important;
+}
+
+.notion-callout .notion-text {
+    font-size: 16px;
+    text-transform: none !important;
+    margin-bottom: 8px!important;
+    color: ;
+}
+
+.notion-collection-card__property{
+  font-size: 15px;
+  color: #455666;
+  line-height: 23px;
+}
+
+.notion-collection-card{
+  box-shadow: 0px 0px!important;
+  border: 1px solid !important;
+  border-radius: 10px!important;
+  border-color: #CDD5DC!important;
+}
+
+.notion-collection-gallery {
+    border-top: 0 !important;
+    gap: 24px !important;
+    padding-top: 0px !important;
+}
+
+.notion-collection-card .notion-link{
+ text-decoration: none!important;
+ padding: 8px;
+ border:1px solid;
+ border-radius: 10px;
+}
+
+.notion-collection-card:hover{
+ background-color: #Fff !important;
+ border-color: #0F161F !important
+}
