@@ -1,99 +1,29 @@
-.super-navbar__cta {
-    transition: all 0.2s ease-in-out!important;
-    font-weight: 400 !important;
-    border-radius: 10px !important;
-    background: #0F161F!important;
-    color: #fff!important;
-    padding: 12px 14px !important;
+/* ICON REPLACE "Pricing & Billing" */
+.super-sidebar a[href*="pricing-billing"]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: -3px;
+  align-items: center;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.8506 0.162099C11.8177 0.162099 12.4717 0.155351 13.0947 0.310537C13.6222 0.442012 14.1253 0.658912 14.583 0.952138C14.9884 1.21189 15.3394 1.54649 15.7695 1.99413L16.2305 2.48144L16.2324 2.48241L19.1035 5.52245C19.7177 6.17273 20.137 6.60835 20.4385 7.12304C20.6938 7.55913 20.8813 8.03203 20.9951 8.5244C21.1293 9.10546 21.124 9.70931 21.124 10.6035V18.0381C21.124 18.8614 21.1241 19.5395 21.0791 20.0898C21.0332 20.6517 20.9346 21.1681 20.6875 21.6533C20.304 22.4059 19.6921 23.0179 18.9395 23.4014C18.4542 23.6486 17.9371 23.748 17.375 23.7939C16.8247 23.8389 16.1465 23.8379 15.3232 23.8379H8.67578C7.85239 23.8379 7.17436 23.8389 6.62403 23.7939C6.06205 23.748 5.54482 23.6486 5.05957 23.4014C4.30726 23.0178 3.69489 22.4057 3.31153 21.6533C3.06452 21.1682 2.96584 20.6516 2.91992 20.0898C2.87497 19.5395 2.87598 18.8614 2.87598 18.0381V5.9619C2.87598 5.13847 2.87496 4.4605 2.91992 3.91015C2.96586 3.34813 3.06427 2.83097 3.31153 2.34569C3.69497 1.59323 4.30713 0.981116 5.05957 0.597646C5.54482 0.350401 6.06205 0.251981 6.62403 0.206044C7.17436 0.161081 7.85239 0.162099 8.67578 0.162099H10.8506ZM12.4639 11.8652C12.1627 11.7674 11.8374 11.7674 11.5361 11.8652C11.3038 11.9408 11.1344 12.0659 11.0234 12.1601C10.9215 12.2468 10.8147 12.3561 10.7275 12.4433L8.46485 14.706C8.07432 15.0966 8.07432 15.7296 8.46485 16.1201C8.85539 16.5104 9.48846 16.5106 9.87891 16.1201L10.9951 15.0039V19.456C10.9952 20.0082 11.4429 20.456 11.9951 20.456C12.5473 20.456 12.995 20.0082 12.9951 19.456V14.9941L14.1211 16.1201C14.5115 16.5105 15.1446 16.5104 15.5352 16.1201C15.9257 15.7296 15.9257 15.0966 15.5352 14.706L13.2725 12.4433C13.1853 12.3561 13.0785 12.2468 12.9766 12.1601C12.8656 12.0659 12.6962 11.9408 12.4639 11.8652ZM13.541 2.57909C12.9889 2.57916 12.5412 3.02702 12.541 3.57909V3.8662C12.541 4.61899 12.5366 5.1399 12.625 5.59179C12.9766 7.38769 14.3808 8.79201 16.1768 9.14354C16.6287 9.23199 17.1493 9.22753 17.9023 9.22753C18.4544 9.22743 18.9022 8.77959 18.9023 8.22753C18.9021 7.67548 18.4544 7.22763 17.9023 7.22753C17.055 7.22753 16.7744 7.22249 16.5605 7.18065C15.5629 6.98521 14.7831 6.20473 14.5879 5.20702C14.5462 4.99329 14.541 4.71271 14.541 3.8662V3.57909C14.5408 3.02698 14.0932 2.57909 13.541 2.57909Z' fill='%2382919E'/%3E%3C/svg%3E");
 }
 
-.super-search-input {
-    border-radius: 12px!important;
-    padding: 10px 12px!important;
-    border-color: #CDD5DC!important;
-}
-
-.super-navigation-menu__item, .super-navigation-menu__list-header{
-  border-radius: 10px !important;
-  padding: 8px 16px !important;
-  color: #26323D!important;
-  letter-spacing: -0.3px !important;
-}
-
-.super-navigation-menu__item.active {
-  font-weight: 400!important;
-  color: #0F161F !important;
-}
-
-.super-navigation-menu__item svg:first-child:not(.super-navigation-menu__list .super-navigation-menu__item > svg:first-child), 
-.super-navigation-menu__list-header svg:first-child {
-    stroke: #82919E!important; 
-    
-}
-
-.super-navigation-menu__item.active svg:first-child:not(.super-navigation-menu__list .super-navigation-menu__item > svg:first-child), 
-.super-navigation-menu__list-header svg:first-child {
-    stroke: #0F161F !important; 
-    
-}
-
-.notion-callout{
-  border-radius: 12px!important;
-  padding: 8px 16px 16px 8px!important;
-  background-color: #fff;
-}
-
-.notion-callout:hover{
-  border: 1px solid!important;
-  border-color: #0F161F;
-}
-
-.notion-callout .notion-image.page-width {
-    width: fill!important;
-    border-radius: 8px!important;
-    overflow: hidden!important;
-}
-
-.notion-callout h3.notion-heading {
-    font-size: 18px;
-    text-transform: none !important;
-    letter-spacing: -0.4px !important;
-}
-
-.notion-callout .notion-text {
-    font-size: 16px;
-    text-transform: none !important;
-    margin-bottom: 8px!important;
-    color: ;
-}
-
-.notion-collection-card__property{
-  font-size: 15px;
-  color: #455666;
-  line-height: 23px;
-}
-
-.notion-collection-card{
-  box-shadow: 0px 0px!important;
-  border: 1px solid !important;
-  border-radius: 10px!important;
-  border-color: #CDD5DC!important;
-}
-
-.notion-collection-gallery {
-    border-top: 0 !important;
-    gap: 24px !important;
-    padding-top: 0px !important;
-}
-
-.notion-collection-card .notion-link{
- text-decoration: none!important;
- padding: 8px;
- border:1px solid;
- border-radius: 10px;
-}
-
-.notion-collection-card:hover{
- background-color: #Fff !important;
- border-color: #0F161F !important
+/* ICON REPLACE "Pricing & Billing" */
+.super-sidebar a.active[href*="pricing-billing"]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: -3px;
+  align-items: center;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.8506 0.162099C11.8177 0.162099 12.4717 0.155351 13.0947 0.310537C13.6222 0.442012 14.1253 0.658912 14.583 0.952138C14.9884 1.21189 15.3394 1.54649 15.7695 1.99413L16.2305 2.48144L16.2324 2.48241L19.1035 5.52245C19.7177 6.17273 20.137 6.60835 20.4385 7.12304C20.6938 7.55913 20.8813 8.03203 20.9951 8.5244C21.1293 9.10546 21.124 9.70931 21.124 10.6035V18.0381C21.124 18.8614 21.1241 19.5395 21.0791 20.0898C21.0332 20.6517 20.9346 21.1681 20.6875 21.6533C20.304 22.4059 19.6921 23.0179 18.9395 23.4014C18.4542 23.6486 17.9371 23.748 17.375 23.7939C16.8247 23.8389 16.1465 23.8379 15.3232 23.8379H8.67578C7.85239 23.8379 7.17436 23.8389 6.62403 23.7939C6.06205 23.748 5.54482 23.6486 5.05957 23.4014C4.30726 23.0178 3.69489 22.4057 3.31153 21.6533C3.06452 21.1682 2.96584 20.6516 2.91992 20.0898C2.87497 19.5395 2.87598 18.8614 2.87598 18.0381V5.9619C2.87598 5.13847 2.87496 4.4605 2.91992 3.91015C2.96586 3.34813 3.06427 2.83097 3.31153 2.34569C3.69497 1.59323 4.30713 0.981116 5.05957 0.597646C5.54482 0.350401 6.06205 0.251981 6.62403 0.206044C7.17436 0.161081 7.85239 0.162099 8.67578 0.162099H10.8506ZM12.4639 11.8652C12.1627 11.7674 11.8374 11.7674 11.5361 11.8652C11.3038 11.9408 11.1344 12.0659 11.0234 12.1601C10.9215 12.2468 10.8147 12.3561 10.7275 12.4433L8.46485 14.706C8.07432 15.0966 8.07432 15.7296 8.46485 16.1201C8.85539 16.5104 9.48846 16.5106 9.87891 16.1201L10.9951 15.0039V19.456C10.9952 20.0082 11.4429 20.456 11.9951 20.456C12.5473 20.456 12.995 20.0082 12.9951 19.456V14.9941L14.1211 16.1201C14.5115 16.5105 15.1446 16.5104 15.5352 16.1201C15.9257 15.7296 15.9257 15.0966 15.5352 14.706L13.2725 12.4433C13.1853 12.3561 13.0785 12.2468 12.9766 12.1601C12.8656 12.0659 12.6962 11.9408 12.4639 11.8652ZM13.541 2.57909C12.9889 2.57916 12.5412 3.02702 12.541 3.57909V3.8662C12.541 4.61899 12.5366 5.1399 12.625 5.59179C12.9766 7.38769 14.3808 8.79201 16.1768 9.14354C16.6287 9.23199 17.1493 9.22753 17.9023 9.22753C18.4544 9.22743 18.9022 8.77959 18.9023 8.22753C18.9021 7.67548 18.4544 7.22763 17.9023 7.22753C17.055 7.22753 16.7744 7.22249 16.5605 7.18065C15.5629 6.98521 14.7831 6.20473 14.5879 5.20702C14.5462 4.99329 14.541 4.71271 14.541 3.8662V3.57909C14.5408 3.02698 14.0932 2.57909 13.541 2.57909Z' fill='%230F161F'/%3E%3C/svg%3E");
 }
