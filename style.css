@@ -9,6 +9,7 @@
 [class*="mobile-nav"] a[href*="pricing-billing"]::before,
 [class*="mobile-menu"] a[href*="pricing-billing"]::before,
 [class*="drawer"] a[href*="pricing-billing"]::before,
+[class*="super-nav"] a[href*="pricing-billing"]::before,
 .notion-sidebar a[href*="pricing-billing"]::before {
   content: "";
   display: inline-block;
@@ -25,6 +26,7 @@
 [class*="mobile-nav"] a.active[href*="pricing-billing"]::before,
 [class*="mobile-menu"] a.active[href*="pricing-billing"]::before,
 [class*="drawer"] a.active[href*="pricing-billing"]::before,
+[class*="super-nav"] a[href*="pricing-billing"]::before,
 .notion-sidebar a.active[href*="pricing-billing"]::before {
   content: "";
   display: inline-block;
@@ -42,6 +44,7 @@
 [class*="mobile-nav"] a[href*="public-house-overview"]::before,
 [class*="mobile-menu"] a[href*="public-house-overview"]::before,
 [class*="drawer"] a[href*="public-house-overview"]::before,
+[class*="super-nav"] a[href*="public-house-overview"]::before,
 .notion-sidebar a[href*="public-house-overview"]::before {
   content: "";
   display: inline-block;
@@ -58,6 +61,7 @@
 [class*="mobile-nav"] a.active[href*="public-house-overview"]::before,
 [class*="mobile-menu"] a.active[href*="public-house-overview"]::before,
 [class*="drawer"] a.active[href*="public-house-overview"]::before,
+[class*="super-nav"] a[href*="public-house-overview"]::before,
 .notion-sidebar a.active[href*="public-house-overview"]::before {
   content: "";
   display: inline-block;
