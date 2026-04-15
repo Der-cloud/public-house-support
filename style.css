@@ -44,6 +44,7 @@
 .super-navigation-menu a[href*="public-house-overview"]::before,
 
 /* Mobile */
+.super-sidebar a[href*="public-house-overview"]::before,
 .super-navbar__menu a[href*="public-house-overview"]::before,
 .super-mobile-menu a[href*="public-house-overview"]::before,
 [role="dialog"] a[href*="public-house-overview"]::before {
