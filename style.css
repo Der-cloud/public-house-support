@@ -40,17 +40,21 @@
 }
 
 /* ── public-house-overview ── */
+/* Desktop */
 .super-navigation-menu a[href*="public-house-overview"]::before,
-[class*="mobile-nav"] a[href*="public-house-overview"]::before,
-[class*="mobile-menu"] a[href*="public-house-overview"]::before,
-[class*="drawer"] a[href*="public-house-overview"]::before,
-[class*="super-nav"] a[href*="public-house-overview"]::before,
-.notion-sidebar a[href*="public-house-overview"]::before {
+
+/* Mobile */
+.super-navbar__menu a[href*="public-house-overview"]::before,
+.super-mobile-menu a[href*="public-house-overview"]::before,
+[role="dialog"] a[href*="public-house-overview"]::before {
+  
   content: "";
   display: inline-block;
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  margin-right: 8px;
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
