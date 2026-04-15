@@ -40,7 +40,7 @@
 }
 
 /* ── public-house-overview ── */
-.super-sidebar a[href*="public-house-overview"]::before,
+.super-navigation-menu a[href*="public-house-overview"]::before,
 [class*="mobile-nav"] a[href*="public-house-overview"]::before,
 [class*="mobile-menu"] a[href*="public-house-overview"]::before,
 [class*="drawer"] a[href*="public-house-overview"]::before,
@@ -57,7 +57,7 @@
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.12719 17.1646H13.8728C14.9929 17.1646 15.5529 17.1646 15.9807 16.9466C16.3571 16.7549 16.663 16.4489 16.8548 16.0726C17.0728 15.6448 17.0728 15.0847 17.0728 13.9646V11.8922C17.0728 10.9956 17.0728 10.5473 16.9788 10.1215C16.8954 9.74377 16.7577 9.38016 16.57 9.04198C16.3584 8.6607 16.0614 8.32484 15.4676 7.65313L13.5961 5.53629C12.3531 4.13034 11.7316 3.42736 10.9969 3.16851C10.3517 2.94121 9.64824 2.94121 9.00309 3.16851C8.26837 3.42736 7.64687 4.13033 6.40387 5.53629L4.53238 7.65312C3.93851 8.32484 3.64158 8.6607 3.42992 9.04198C3.24219 9.38016 3.1045 9.74377 3.02116 10.1215C2.92719 10.5473 2.92719 10.9956 2.92719 11.8922V13.9646C2.92719 15.0847 2.92719 15.6448 3.14517 16.0726C3.33692 16.4489 3.64288 16.7549 4.0192 16.9466C4.44703 17.1646 5.00708 17.1646 6.12719 17.1646Z' stroke='%2382919E' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.93695 17.1646H12.063V15.0479C12.063 14.5241 12.063 14.2622 11.9983 14.0491C11.8528 13.57 11.4779 13.1951 10.9988 13.0496C10.7857 12.9849 10.5238 12.9849 9.99997 12.9849C9.47615 12.9849 9.21424 12.9849 9.00113 13.0496C8.52205 13.1951 8.14713 13.57 8.00166 14.0491C7.93695 14.2622 7.93695 14.5241 7.93695 15.0479V17.1646Z' stroke='%2382919E' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
 }
 
-.super-sidebar a.active[href*="public-house-overview"]::before,
+.super-navigation-menu a.active[href*="public-house-overview"]::before,
 [class*="mobile-nav"] a.active[href*="public-house-overview"]::before,
 [class*="mobile-menu"] a.active[href*="public-house-overview"]::before,
 [class*="drawer"] a.active[href*="public-house-overview"]::before,
